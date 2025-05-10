@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 export default function ProfileCard({ title, handle, img, description }) {
   return (
     <>
-      <Card style={{ width: "18rem", hegith: "340px" }} className="shadow-lg">
+      <Card style={{ width: "18rem" }} className="shadow-lg">
         <Card.Img variant="top" src={img} alt="image for testing" />
         <Card.Body>
           <Card.Title> Title : {title}</Card.Title>
